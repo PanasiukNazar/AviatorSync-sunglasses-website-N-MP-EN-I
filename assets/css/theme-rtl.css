@@ -21348,9 +21348,7 @@ pre[class*="language-"] {
 
 .scroll-indicator {
     font-weight: 700;
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+    transform: rotate(0deg) !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -21361,7 +21359,11 @@ pre[class*="language-"] {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+
 }
+
+
+
 .scroll-indicator:hover {
     text-decoration: none;
 }
